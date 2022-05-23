@@ -1,0 +1,14 @@
+.hero{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    z-index: -1;
+
+    background-color: rgb(200, 255, 255);
+}
+
+.hero h1{
+    margin-top: 20%;
+    margin-left: 10%;
+}

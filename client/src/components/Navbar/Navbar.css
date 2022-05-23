@@ -1,0 +1,39 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-items-ctn{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    width: 50%;
+    justify-content: center;
+}
+
+.navbar-items-ctn li a{
+    text-decoration: none;
+    color: #000;
+    width: 100%;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+.navbar-items-ctn li a:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.navbar-item{
+    box-sizing: content-box;
+    /* padding: 5px 2%; */
+    margin: 0 5%;
+
+
+}
+
+.navbar-logo-ctn{
+    margin-left: 30px;
+}
