@@ -4,7 +4,20 @@ import './Hero.css'
 function Hero() {
   return (
     <div className='hero'>
-        <h1>Welcome to Swift Wift</h1>
+        <div className='hero-text'>
+            <h1>Welcome to Swift Wift</h1>
+        </div>
+        <div className='hero-items'>
+            <div className='hero-item'>
+                <h2>Swift</h2>
+            </div>
+            <div className='hero-item'>
+              <h2>Swift</h2>
+            </div>
+            <div className='hero-item'>
+            <h2>Swift</h2>
+            </div>
+        </div>
     </div>
   )
 }

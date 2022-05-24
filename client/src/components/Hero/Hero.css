@@ -5,10 +5,38 @@
     top: 0;
     z-index: -1;
 
+    display: flex;
+
     background-color: rgb(200, 255, 255);
 }
 
-.hero h1{
-    margin-top: 20%;
-    margin-left: 10%;
+.hero .hero-text h1{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 40%;
+    left: 20%;
 }
+
+.hero .hero-text{
+    width: 40%;
+}
+
+.hero-items {
+    margin: 5%;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+    row-gap: 1rem;
+    column-gap: 1rem;
+}
+
+.hero-item{
+    border: 1px solid black;
+}
+
+.hero-item:nth-child(3){
+    grid-column: 1 / span 2;
+}
+
