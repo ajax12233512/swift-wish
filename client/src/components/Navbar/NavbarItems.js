@@ -18,6 +18,12 @@ const navItems = [
         icon: 'home',
         cName
     },
+    {
+        name: 'Shop',
+        path: '/shop',
+        icon: 'shop',
+        cName
+    },
 ]
 
 export default navItems

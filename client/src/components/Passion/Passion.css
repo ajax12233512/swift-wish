@@ -1,0 +1,31 @@
+.passion{
+    position: absolute;
+    bottom: -90vh;
+    height: 30vh;
+
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+    background-color: rgba(9, 77, 74, 0.794);
+    color: white;
+    padding: 0 15%;
+}
+
+.passion-left, .passion-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.passion-left{
+    width: 50%;
+    height: 30vh;
+
+}
+
+.passion-right{
+    width: auto;
+    height: 30vh;
+
+}

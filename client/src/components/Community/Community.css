@@ -1,0 +1,30 @@
+.community{
+    position: absolute;
+    bottom: -60vh;
+    height: 30vh;
+
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+    background-color: rgba(9, 77, 74, 0.794);
+    color: white;
+    padding: 0 15%;
+}
+
+.community-left, .community-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.community-left{
+    width: 50%;
+    height: 30vh;
+
+}
+
+.community-right{
+    width: auto;
+    height: 30vh;
+}

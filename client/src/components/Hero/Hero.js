@@ -15,7 +15,7 @@ function Hero() {
               <h2>Swift</h2>
             </div>
             <div className='hero-item'>
-            <h2>Swift</h2>
+              <h2>Swift</h2>
             </div>
         </div>
     </div>

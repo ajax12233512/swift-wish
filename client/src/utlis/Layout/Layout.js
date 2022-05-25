@@ -1,13 +1,13 @@
 import React from 'react'
 import Navbar from '../../components/Navbar/Navbar'
-import './Contact.css'
-function Contact() {
+
+function Layout(children) {
   return (
     <div>
-      <Navbar />
-        <h1>Contact</h1>
+        <Navbar />
+        {children}
     </div>
   )
 }
 
-export default Contact
+export default Layout

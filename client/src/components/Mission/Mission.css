@@ -1,0 +1,31 @@
+.mission{
+    position: absolute;
+    bottom: -30vh;
+    height: 30vh;
+
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+    background-color: rgba(9, 77, 74, 0.794);
+    color: white;
+    padding: 0 15%;
+}
+
+.mission-left, .mission-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mission-left{
+    width: 50%;
+    height: 30vh;
+
+}
+
+.mission-right{
+    width: auto;
+    height: 30vh;
+
+}
